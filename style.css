@@ -29,7 +29,7 @@ h1 {
 
 .card {
 	list-style: none;
-	padding: 40px;
+	padding: 25px;
 	color: #222;
 	text-align: center;
 	border-radius: 20px;
@@ -109,6 +109,9 @@ h1 {
 .normal {
 	background-color: #F5F5F5;
 }
+.ghost {
+	background-color: #661458;
+}
 
 .card:hover {
 	animation: bounce 0.5s linear;
@@ -117,7 +120,7 @@ h1 {
 .card-title {
 	text-transform: capitalize;
 	margin-bottom: 0px;
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: normal;
 	position: relative;
 	z-index: 2;
